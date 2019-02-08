@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exMVVM.Views.UCMainView">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Start">
+            <Label Text="Title of the task"/>
+            <Entry Text="{Binding MainModel.Title}"/>
+            <Label Text="Duration of the task"/>
+            <Entry Text="{Binding MainModel.Duration}"/>
+            <Label Text="State of Country"/>
+            <Entry Text="{Binding MainModel.State}"/>
+
+            <Button Text="Sent"
+              Command="{Binding MyCommand}"
+              VerticalOptions="Center"
+              HorizontalOptions="Center" />
+
+            <Label Text="{Binding MyMessage}"
+              VerticalOptions="Center"
+              HorizontalOptions="Center" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
