@@ -9,14 +9,14 @@ namespace exMVVM.ViewModels
 {
     public class MainViewModel : ViewModelBase
     {
-        //private int _counter;
-        //private DelegateCommand _myCommand;
+        private int _counter;
+        private DelegateCommand _myCommand;
 
-        //void counterCommandExecute()
-        //{
-        //    _counter++;
-        //    RaisePropertyChanged("MyMessage");
-        //}
+        void counterCommandExecute()
+        {
+            _counter++;
+            RaisePropertyChanged("MyMessage");
+        }
         public MainModel mainModel { get; set; }
 
         public MainViewModel()
@@ -28,16 +28,16 @@ namespace exMVVM.ViewModels
                 State = "EU",
             };
 
-            //_counter = 0;
+            _counter = 0;
         }
 
-        //public string MyMessage
-        //{
-        //    get { return string.Format("{0} times", _counter); }
-        //}
-        //public ICommand MyCommand
-        //{
-        //    get { return _myCommand = _myCommand ?? new DelegateCommand(counterCommandExecute); }
-        //}
+        public string MyMessage
+        {
+            get { return string.Format("{0} times", _counter); }
+        }
+        public ICommand MyCommand
+        {
+            get { return _myCommand = _myCommand ?? new DelegateCommand(counterCommandExecute); }
+        }
     }
 }

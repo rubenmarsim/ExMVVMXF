@@ -10,3 +10,4 @@ C:\Users\admin\Documents\GitHub\ExMVVMXF\exMVVM\exMVVM\exMVVM\obj\Debug\netstand
 C:\Users\admin\Documents\GitHub\ExMVVMXF\exMVVM\exMVVM\exMVVM\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\admin\Documents\GitHub\ExMVVMXF\exMVVM\exMVVM\exMVVM\obj\Debug\netstandard2.0\exMVVM.dll
 C:\Users\admin\Documents\GitHub\ExMVVMXF\exMVVM\exMVVM\exMVVM\obj\Debug\netstandard2.0\exMVVM.pdb
+C:\Users\admin\Documents\GitHub\ExMVVMXF\exMVVM\exMVVM\exMVVM\obj\Debug\netstandard2.0\exMVVM.csprojAssemblyReference.cache

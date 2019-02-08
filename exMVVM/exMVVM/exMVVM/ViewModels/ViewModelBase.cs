@@ -8,7 +8,7 @@ namespace exMVVM.ViewModels
 {
     public class ViewModelBase
     {
-        private void RaisePropertyChanged([CallerMemberName] string propertyName = null)
+        public void RaisePropertyChanged([CallerMemberName] string propertyName = null)
         {
             var handle = PropertyChanged;
             if (handle != null)
